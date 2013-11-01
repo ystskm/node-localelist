@@ -24,6 +24,6 @@
     "type": "git"
   },
   "scripts": {
-    "test": "expresso test/*"
+    "test": "node test/basic.js"
   }
 }
