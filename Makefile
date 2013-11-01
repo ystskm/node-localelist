@@ -1,3 +1,3 @@
-test:
-	@nodeunit test
-.PHONY: test
+test-all:
+	node ./test/basic.js
+.PHONY: test-all
