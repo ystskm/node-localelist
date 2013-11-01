@@ -1,17 +1,29 @@
 {
+  "name": "localelist",
+  "version": "0.9.1",
   "author": {
     "name": "Yoshitaka Sakamoto",
     "url": "http://github.com/ystskm",
     "email": "sakamoto@liberty-technology.biz"
   },
   "contributors": [],
-  "dependencies": {},
+  "dependencies": {
+  },
   "description": "A comprehensive library for locale-type mapping",
-  "devDependencies": {"async_testing": ""},
-  "keywords": ["util", "locale", "i18n"],
+  "devDependencies": {
+    "async_testing": ""
+  },
+  "keywords": [
+    "util",
+    "locale",
+    "i18n"
+  ],
   "main": "index.js",
-  "name": "localelist",
-  "repository": {"url": "http://github.com/ystskm/node-localelist", "type": "git"},
-  "scripts": {"test": "test-all"},
-  "version": "0.9.1"
+  "repository": {
+    "url": "http://github.com/ystskm/node-localelist",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "expresso test/*"
+  }
 }
