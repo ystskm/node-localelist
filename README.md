@@ -15,8 +15,8 @@ Install with [npm](http://github.com/isaacs/npm):
 
     ll.shorten('ja_JP');         // => 'ja'
     ll.toArray('ja_JP');         // => ['ja', 'ja_JP']
-    ll.get('ja_JP', 'ja');          // => '日本語 日本'
-    ll.list()                             // => ['ja_JP', 'en_US', ...]
+    ll.data('ja_JP', 'ja');      // => '日本語 日本'
+    ll.list()                    // => ['ja_JP', 'en_US', ...]
 
 ### extend locales
 

@@ -12,5 +12,6 @@
   "main": "index.js",
   "name": "localelist",
   "repository": {"url": "http://github.com/ystskm/node-localelist", "type": "git"},
+  "scripts": {"test": "nodeunit test"},
   "version": "0.1.0"
 }
