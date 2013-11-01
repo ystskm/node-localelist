@@ -1,6 +1,6 @@
 {
-  "name": "localelist",
-  "version": "0.9.1",
+  "name": "locale-list",
+  "version": "0.9.2",
   "author": {
     "name": "Yoshitaka Sakamoto",
     "url": "http://github.com/ystskm",
@@ -13,11 +13,7 @@
   "devDependencies": {
     "async_testing": ""
   },
-  "keywords": [
-    "util",
-    "locale",
-    "i18n"
-  ],
+  "keywords": ["util","locale","i18n"],
   "main": "index.js",
   "repository": {
     "url": "http://github.com/ystskm/node-localelist",
