@@ -7,11 +7,11 @@ Easily extend by adding a locale file you want to use
 
 Install with [npm](http://github.com/isaacs/npm):
 
-    npm install localelist
+    npm install locale-list
 
 ## API - Queries
 
-    var ll = require('localelist');
+    var ll = require('locale-list');
 
     ll.shorten('ja_JP');         // => 'ja'
     ll.toArray('ja_JP');         // => ['ja', 'ja_JP']
