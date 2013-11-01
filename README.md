@@ -20,4 +20,4 @@ Install with [npm](http://github.com/isaacs/npm):
 
 ### extend locales
 
-    add or change file in "list" directory 
+    add or change file in "lists" directory 
