@@ -4,7 +4,7 @@ var ll = require('../index');
 module.exports = nodeunit.testCase({
   'shorten': function(t) {
     t.equal(typeof ll.shorten, 'function');
-    t.equal(ll.shorten('ja_JP'), 'ja');
+    t.equal(ll.shorten('ja_JP'), '!ja');
     t.done();
   },
   'toArray': function(t) {

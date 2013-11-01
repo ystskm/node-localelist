@@ -1,4 +1,4 @@
-// node-localelist index.js
+// [node-localelist] index.js
 var path = require('path'), fs = require('fs');
 
 var GLOBAL_LANG = '_global', LISTS_DIR = path.join(__dirname, 'lists');

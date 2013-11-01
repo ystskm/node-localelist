@@ -1,3 +1,8 @@
 language: node_js
 node_js:
   - "0.10"
+before_script:
+  - git clone https://github.com/caolan/nodeunit.git
+  - cd nodeunit
+  - make && make install
+  - "npm install nodeunit"
