@@ -11,7 +11,7 @@ module.exports = nodeunit.testCase({
     t.equal(typeof ll.toArray, 'function');
     var res = ll.toArray('ja_JP');
     t.ok(Array.isArray(res));
-    t.equal(res[0] == 'ja'), t.equal(res[1] == 'ja_JP');
+    t.equal(res[0], 'ja'), t.equal(res[1], 'ja_JP');
     t.done();
   },
   'data': function(t) {
