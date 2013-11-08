@@ -5,7 +5,7 @@ Easily extend by adding a locale file you want to use
 
 ## Install
 
-Install with [npm](http://github.com/isaacs/npm):
+Install with [npm](http://npmjs.org/):
 
     npm install locale-list
 
