@@ -1,5 +1,7 @@
 # localelist
-
+  
+[![Build status](https://travis-ci.org/ystskm/node-localelist.png)](https://travis-ci.org/ystskm/node-localelist)  
+  
 Support for mapping between locale and the status.
 Easily extend by adding a locale file you want to use
 
