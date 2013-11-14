@@ -11,7 +11,8 @@
   },
   "description": "A comprehensive library for locale-type mapping",
   "devDependencies": {
-    "async_testing": ""
+    "nodeunit": "*",
+    "nodeunit-ci": "*"
   },
   "keywords": ["util","locale","i18n"],
   "main": "index.js",
